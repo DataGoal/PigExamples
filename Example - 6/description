@@ -1,0 +1,12 @@
+--Question:
+-- Find a specified word count in a given file.
+--"Split and substring" function is used here.
+
+--Descrption:
+-- Step 1: Loading the bag(data) in the Pig grunt shell.
+-- Step 2: Spliting the raw bag(data) based on the required word by using the 
+--         SUBSTRING function here the words are "INFO","ERROR", "WARN".
+--         these three are saved in each bags.
+-- Step 3: Grouping all three bags by ALL function.
+-- Step 4: Counting the number of words in it.
+-- Step 5: Displaying the final counted bags.

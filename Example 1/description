@@ -1,0 +1,17 @@
+--QUESTIONS:
+--The dataset contains productID, productName and monthly sales figure for the product for year 2000,2001&2002.
+--From the dataset we need to find above 10% average growth of the product sales for total years
+--and also find the below -5% of the products for total years.
+--We also need to find the top five and bottom five products based on the total year sales of the products.
+
+--DESCRIPTION:
+--1st Step : We need load all the three year data in Pig grunt shell.
+--2nd step : We need to sum up all the monthly sales to find the yearly sales for each year.
+--3rd step : We need to join all the data sets into a single bag. We have 9 columns since duplicate columns are allowed in pig.
+--4th step : We need to get rid off from the duplicale columns by using finalyear bag script line.
+--5th step : We need to find the yearly growth percentage by using the yearpercent script line.
+--6th step : We need to find the average growth.
+--7th step : We need to find the product average growth more than 10%.
+--8th step : We need to find the product average less than -5%.
+--9th step : We need to find overall top 5 product sold by terms of price.
+--10th step : We need to find overall bottom 5 products sold by terms of price.

@@ -1,0 +1,10 @@
+--QUESTION:
+--To find the amount and percentage of transcation made through cash and credit cards.
+--dataset contains transcationID,TranscationDate,CusID,AmountTransferred,ProductDept,Product,CashorCredit
+
+--Description:
+--step 1: loading the data.
+--step 2: grouping the data by type of transcation made (cash and credit).
+--step 3: adding the cash and credit amounts individually.
+--step 4: adding cash and credit amount to find the total amount.
+--step 5: finiding the percentage.

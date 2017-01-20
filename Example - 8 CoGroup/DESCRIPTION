@@ -1,0 +1,4 @@
+--Description
+--Step 1: Loading the data.
+--Step 2: COGROUP the datasets with the common column.
+-- IN COGROUP WE CAN ABLE TO groups rows based on a column, and creates bags for each group.
