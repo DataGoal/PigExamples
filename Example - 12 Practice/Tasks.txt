@@ -1,0 +1,17 @@
+===================================================================================
+
+Task 1
+
+Calculate the total sum and total count of all the transaction for each user and print with user name
+
+===================================================================================
+
+Task 2 
+
+Find the username which spent the most amount in the whole year.
+
+===================================================================================
+
+
+
+

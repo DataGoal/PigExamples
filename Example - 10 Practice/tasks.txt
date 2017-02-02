@@ -1,0 +1,7 @@
+
+===========================================================
+
+Create two files, first containing names of all the failed student and second 
+containing names of all the pass students.
+
+===========================================================
